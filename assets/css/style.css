@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&family=Roboto&display=swap');
+h1{
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+}
+p{ font-family: 'Montserrat', sans-serif;}
+nav h1 {
+    text-align: center;
+}
+.bg-header{
+    background-color: #f2f2f2;
+}
+.logo{
+    width: 130px;
+} 
+.primerProyecto{
+    margin-top: 20px;
+}
+.firstProyectCard{
+    background: url("../img/250x350.png");
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 26px -5px rgba(0,0,0,0.16);
+}
+.firstProyectCard .colorTitle{
+    background-color: #84203A;
+    color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 16px 22px 5px 22px;
+    position: relative;
+    top: 79%;
+    border-radius: 0 0 20px 20px;   
+}
+.firstProyectCard .colorTitle:hover{
+    position: inherit;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+.firstProyectCard .colorTitle p{
+    line-height: 10px;
+}
+.firstProyectCard .colorTitle p:nth-child(1){
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+.firstProyectCard .colorTitle p:nth-child(2){
+    font-weight: 300;
+    font-size: 0.8rem;
+
+}
+.firstProyectCard img{
+    width: 28px;
+    position: absolute;
+    right: 26px;
+    top: 24px;
+}
+.colorTitle div:nth-child(1){
+    order: 1;
+}
+.colorTitle div:nth-child(2){
+    order: 2;
+}
+
+.secondProyectCard{
+    background: url("../img/250x350.png");
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 26px -5px rgba(0,0,0,0.16);
+}
+.secondProyectCard .colorTitle img{
+    width: 28px;
+    position: absolute;
+    right: 26px;
+    top: 52px;
+}
+.secondProyectCard .colorTitle{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+    color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 46px 22px 5px 22px;
+    position: relative;
+    top: 71%;
+    border-radius: 0 0 20px 20px;
+}
+.secondProyectCard .colorTitle:hover{
+    background-color: #020202;
+    position: inherit;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+.secondProyectCard .colorTitle p{
+    line-height: 10px;
+}
+.secondProyectCard .colorTitle p:nth-child(1){
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+.secondProyectCard .colorTitle p:nth-child(2){
+    font-weight: 300;
+    font-size: 0.8rem;
+
+}
+.colorTitle div:nth-child(1){
+    order: 1;
+}
+.colorTitle div:nth-child(2){
+    order: 2;
+}
+.colorTitle img{
+    width: 28px;
+    position: absolute;
+    right: 26px;
+    top: 24px;
+}
+.colorTitle img{
+    width: 28px;
+    position: absolute;
+    right: 26px;
+    top: 24px;
+}
