@@ -22,6 +22,7 @@ nav h1 {
     height: 350px;
     border-radius: 20px;
     box-shadow: 1px 2px 26px -5px rgba(0,0,0,0.16);
+    margin: 0 auto;
 }
 .firstProyectCard .colorTitle{
     background-color: #84203A;
@@ -38,7 +39,10 @@ nav h1 {
     position: inherit;
     height: 100%;
     border-radius: 20px;
-    
+    padding: 46px 22px 5px 22px;
+}
+.firstProyectCard .colorTitle:hover img{
+   display: none;
 }
 .firstProyectCard .colorTitle p{
     line-height: 10px;
@@ -72,6 +76,7 @@ nav h1 {
     height: 350px;
     border-radius: 20px;
     box-shadow: 1px 2px 26px -5px rgba(0,0,0,0.16);
+      margin: 0 auto;
 }
 .secondProyectCard .colorTitle img{
     width: 28px;
@@ -95,8 +100,11 @@ nav h1 {
     position: inherit;
     height: 100%;
     border-radius: 20px;
-    
 }
+.secondProyectCard .colorTitle:hover img{
+    display: none;
+ }
+
 .secondProyectCard .colorTitle p{
     line-height: 10px;
 }
